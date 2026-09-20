@@ -9,7 +9,7 @@
 
 using namespace std;
 
-//#define PreRelease
+#define PreRelease
 
 
 #define STUDENT_FILE	"StudentData.txt"
