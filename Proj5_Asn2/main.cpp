@@ -20,6 +20,7 @@ typedef struct student
 
 int main()
 {
+
 	STUDENT student;
 	string line;
 
@@ -43,11 +44,13 @@ int main()
 		}
 	}
 
+#ifdef _DEBUG
+	cout << "Number of students read: " << students.size() << endl;
 	for (const STUDENT& s : students)
 	{
 		cout << "First Name: " << s.firstName << ", Last Name: " << s.lastName << endl;
 	}
-
+#endif
 
 	return 0;
 }
