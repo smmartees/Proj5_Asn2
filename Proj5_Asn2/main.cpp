@@ -9,7 +9,7 @@
 
 using namespace std;
 
-#define PreRelease
+//#define PreRelease
 
 
 #define STUDENT_FILE	"StudentData.txt"
@@ -78,6 +78,7 @@ int main()
 	}
 #else
 		cout << "First Name: " << s.firstName << ", Last Name: " << s.lastName << endl;
+	}
 #endif
 	 
 #endif
